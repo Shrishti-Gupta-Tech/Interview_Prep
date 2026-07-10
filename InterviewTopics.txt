@@ -1,0 +1,712 @@
+Yes. There are many duplicate topics in your list. Below is a **proper roadmap** arranged from **Java fundamentals → Advanced Java → Spring → Microservices → Frontend → Testing → System Design → DSA**. This is how most product companies (SAP, Schneider Electric, Avali, Accenture, TCS Digital, etc.) expect interviews.
+
+---
+
+# 1. Java Fundamentals (Core Java Basics)
+
+### Java Basics
+
+* JDK vs JRE vs JVM
+* Java Memory Model
+* Stack vs Heap
+* Garbage Collection
+* Packages
+* Access Modifiers
+* Variables
+* Data Types
+* Wrapper Classes
+* Autoboxing & Unboxing
+* Pass By Value
+* Constructors
+* Object Class
+
+---
+
+### OOP
+
+* Class & Object
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Abstraction
+* Composition vs Inheritance
+* Method Overloading
+* Method Overriding
+* this keyword
+* super keyword
+* Static keyword
+* Final keyword
+* final vs finally vs finalize
+* Immutable Objects
+
+---
+
+### String
+
+* String
+* StringBuilder
+* StringBuffer
+* String Pool
+* equals() vs ==
+* hashCode()
+* String Interning
+
+---
+
+### Exception Handling
+
+* try-catch-finally
+* throw
+* throws
+* Checked Exception
+* Unchecked Exception
+* Custom Exception
+* Exception Propagation
+
+---
+
+### Advanced Java
+
+* Inner Classes
+* Nested Classes
+* Enums
+* Annotations
+* Reflection
+* Serialization
+* Generics
+
+---
+
+### Java 8+
+
+* Lambda Expressions
+* Functional Interfaces
+* Streams API
+* Method References
+* Optional
+* Default Methods
+* Static Interface Methods
+* Date & Time API
+
+---
+
+# 2. Collections Framework
+
+## Collection Hierarchy
+
+* Collection Interface
+* List
+* Set
+* Queue
+* Map
+
+---
+
+### List
+
+* ArrayList
+* LinkedList
+* Vector
+* Stack
+
+---
+
+### Queue
+
+* Queue
+* PriorityQueue
+* Deque
+* ArrayDeque
+
+---
+
+### Set
+
+* HashSet
+* LinkedHashSet
+* TreeSet
+
+---
+
+### Map
+
+* HashMap
+* LinkedHashMap
+* TreeMap
+* Hashtable
+* ConcurrentHashMap
+
+---
+
+### Collections Concepts
+
+* Comparable
+* Comparator
+* Iterator
+* ListIterator
+* Enumeration
+* Fail Fast
+* Fail Safe
+* Time Complexities
+
+---
+
+### HashMap Internals
+
+* Hashing
+* Buckets
+* Hash Collision
+* hashCode()
+* equals()
+* Load Factor
+* Rehashing
+* Treeification
+* Red Black Tree
+* ConcurrentHashMap Internals
+
+---
+
+# 3. Multithreading & Concurrency
+
+### Basics
+
+* Process vs Thread
+* Thread Lifecycle
+* Thread vs Runnable
+* Runnable vs Callable
+
+---
+
+### Thread Management
+
+* ExecutorService
+* Thread Pool
+* Future
+* CompletableFuture
+* Fork Join Framework
+* Parallel Streams
+
+---
+
+### Synchronization
+
+* synchronized
+* volatile
+* Atomic Classes
+* Locks
+* ReentrantLock
+
+---
+
+### Concurrency Problems
+
+* Deadlock
+* Race Condition
+* Producer Consumer
+* Thread Safety
+
+---
+
+# 4. Spring Framework
+
+### Core Spring
+
+* IOC
+* Dependency Injection
+* Bean
+* Bean Lifecycle
+* Bean Scope
+* @Component
+* @Service
+* @Repository
+* @Controller
+* @RestController
+* @Autowired
+* @Qualifier
+* @Primary
+* @Configuration
+* @Bean
+* Profiles
+
+---
+
+### Spring Boot
+
+* Auto Configuration
+* Starter Dependencies
+* application.properties
+* DevTools
+* Logging
+* Configuration Properties
+* Spring Boot Actuator
+
+  * /health
+  * /info
+  * /metrics
+
+---
+
+### REST APIs
+
+* REST Principles
+* REST Architecture
+* CRUD APIs
+* GET
+* POST
+* PUT
+* PATCH
+* DELETE
+* PathVariable
+* RequestParam
+* RequestBody
+* ResponseEntity
+* HTTP Status Codes
+* Pagination
+* Versioning
+* HATEOAS
+* Idempotency
+
+---
+
+### Validation
+
+* Bean Validation
+* @Valid
+* Custom Validation
+
+---
+
+### Exception Handling
+
+* @ExceptionHandler
+* @ControllerAdvice
+* Global Exception Handling
+
+---
+
+### Spring Security
+
+* Authentication
+* Authorization
+* JWT
+* OAuth Basics
+* Filters
+* Interceptors
+* API Security
+
+---
+
+# 5. Spring Data JPA & Hibernate
+
+### Hibernate Basics
+
+* ORM
+* Entity
+* Persistence Context
+* Entity Lifecycle
+
+---
+
+### JPA
+
+* CrudRepository
+* JpaRepository
+* PagingAndSortingRepository
+
+---
+
+### Entity Relationships
+
+* OneToOne
+* OneToMany
+* ManyToOne
+* ManyToMany
+
+---
+
+### Fetching
+
+* Lazy Loading
+* Eager Loading
+
+---
+
+### Cascade Types
+
+---
+
+### Queries
+
+* JPQL
+* Native Query
+* Specifications
+
+---
+
+### Transactions
+
+* @Transactional
+* ACID
+* Dirty Checking
+
+---
+
+# 6. SQL & MongoDB
+
+## SQL
+
+### Basics
+
+* SELECT
+* WHERE
+* ORDER BY
+* GROUP BY
+* HAVING
+
+---
+
+### Joins
+
+* INNER JOIN
+* LEFT JOIN
+* RIGHT JOIN
+* FULL JOIN
+* SELF JOIN
+
+---
+
+### Advanced SQL
+
+* Window Functions
+* CTE
+* Views
+* Stored Procedures
+
+---
+
+### Database Concepts
+
+* Primary Key
+* Foreign Key
+* Indexing
+* Normalization
+* Transactions
+* ACID
+
+---
+
+## MongoDB
+
+* Collections
+* Documents
+* CRUD
+* Aggregation
+* Indexes
+* Sharding
+
+---
+
+# 7. Microservices
+
+### Basics
+
+* Why Microservices
+* Monolith vs Microservices
+
+---
+
+### Communication
+
+* REST
+* Feign Client
+* Synchronous
+* Asynchronous
+
+---
+
+### Reliability
+
+* Circuit Breaker
+* Resilience4j
+* Retry
+* Idempotency
+
+---
+
+### Messaging
+
+* Kafka
+* RabbitMQ
+* Event Driven Architecture
+* Dead Letter Queue
+
+---
+
+### Distributed Systems
+
+* API Gateway
+* Service Discovery
+* Load Balancing
+* Distributed Transactions
+* Saga Pattern
+* Configuration Server
+* Distributed Logging
+
+---
+
+# 8. Angular
+
+### Basics
+
+* Components
+* Modules
+* Services
+* Dependency Injection
+
+---
+
+### Routing
+
+* Routing
+* Lazy Loading
+
+---
+
+### RxJS
+
+* Observables
+* Subjects
+
+---
+
+### Forms
+
+* Template Driven Forms
+* Reactive Forms
+
+---
+
+### UI
+
+* Pipes
+* Directives
+* Lifecycle Hooks
+* Change Detection
+
+---
+
+# 9. Testing
+
+### Unit Testing
+
+* JUnit 5
+* Assertions
+* Test Lifecycle
+
+---
+
+### Mockito
+
+* Mock
+* Spy
+* Verify
+
+---
+
+### Integration Testing
+
+* MockMvc
+* TestContainers
+
+---
+
+### UI Testing
+
+* Playwright
+
+---
+
+### Code Quality
+
+* SonarQube
+* Code Coverage
+* Test Pyramid
+
+---
+
+# 10. Git & DevOps
+
+### Git
+
+* Clone
+* Branch
+* Commit
+* Push
+* Pull
+* Merge
+* Rebase
+* Cherry-pick
+* Resolve Merge Conflicts
+
+---
+
+### CI/CD
+
+* CI/CD Pipeline
+* Jenkins Basics
+
+---
+
+### Docker
+
+* Docker Image
+* Dockerfile
+* Container
+* Docker Compose
+
+---
+
+# 11. Design Patterns
+
+* Singleton
+* Factory
+* Builder
+* Strategy
+* Observer
+* Dependency Injection Pattern
+
+---
+
+# 12. System Design
+
+### Low-Level Design
+
+* SOLID Principles
+* URL Shortener
+* Notification Service
+* Logging System
+
+---
+
+### High-Level Design
+
+* Chat System
+* Cache Design
+* Rate Limiter
+* File Upload System
+
+---
+
+# 13. DSA & Coding
+
+### Arrays
+
+* Two Sum
+* Three Sum
+* Prefix Sum
+
+---
+
+### Strings
+
+* Longest Substring Without Repeating Characters
+* Valid Parentheses
+
+---
+
+### Sliding Window
+
+* Fixed Window
+* Dynamic Window
+
+---
+
+### Binary Search
+
+* Standard Binary Search
+* Search Variants
+
+---
+
+### Linked List
+
+* Reverse Linked List
+* Detect Cycle
+* Merge Two Sorted Lists
+
+---
+
+### Trees
+
+* DFS
+* BFS
+* Tree Traversals
+* Lowest Common Ancestor
+
+---
+
+### Heap
+
+* Top K Frequent Elements
+* Priority Queue Problems
+
+---
+
+### Graph
+
+* BFS
+* DFS
+
+---
+
+### Dynamic Programming
+
+* Basics
+* 1D DP
+* 2D DP
+
+---
+
+# 14. Interview Experience & Scenario-Based Questions
+
+Be prepared to explain:
+
+* Tell me about yourself.
+* Explain your latest project end-to-end.
+* Your role and responsibilities.
+* How you designed the application.
+* A challenging bug you fixed.
+* A production issue you debugged.
+* How you optimized a slow API.
+* How you improved SQL performance.
+* How you handled global exception handling.
+* How you secured REST APIs.
+* How you reviewed code.
+* How you resolved Git merge conflicts.
+* Your CI/CD pipeline.
+* Docker usage in your project.
+* Real examples of Java 8 features (Streams, Lambdas, Optional) from your project.
+* Kafka usage and event flow.
+* Hibernate/JPA optimizations.
+* Why you chose Spring Boot.
+* Future improvements for your project.
+
+---
+
+# 15. Python Basics (Nice to Have)
+
+* Variables
+* Data Types
+* Lists
+* Tuples
+* Dictionaries
+* Sets
+* Functions
+* OOP Basics
+* Exception Handling
+* File Handling
+* Basic Modules
+
+> If asked, a reasonable response is: "I have strong expertise in Java and Spring Boot, and I also know Python fundamentals. I'm comfortable learning and working with Python when the project requires it."
+
+This roadmap removes duplicates, groups related concepts together, and follows a progression that aligns well with typical Java backend interviews.
